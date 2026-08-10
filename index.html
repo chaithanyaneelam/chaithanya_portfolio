@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chaithanya Neelam — Full-Stack Developer & Founder</title>
+  <meta name="description"
+    content="Portfolio of Chaithanya Neelam — Full-Stack Developer & Founder. Proficient in Next.js, React, Node.js, TypeScript, PostgreSQL, and building scalable SaaS applications." />
+  <meta name="keywords"
+    content="Chaithanya Neelam, Full-Stack Developer, Founder, StudBridge, Web Developer Internship, React, Next.js, Node.js, TypeScript, Portfolio" />
+  <meta name="author" content="Chaithanya Neelam" />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+
+  <!-- Geist & Geist Mono Fonts (Vercel Style) + Inter fallback -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600;700&family=Geist:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Floating Ambient Blur Background -->
+  <div class="ambient-container" aria-hidden="true">
+    <div class="ambient-glow ambient-glow-1"></div>
+    <div class="ambient-glow ambient-glow-2"></div>
+  </div>
+
+  <!-- Header / Navigation -->
+  <header id="navbar">
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="#hero" class="nav-logo">
+        <span class="logo-box">CN</span>
+        <div class="logo-text">
+          <span class="logo-name">Chaithanya</span>
+          <span class="logo-sub">Neelam</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Action CTA & Theme Switcher -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="icon-btn" aria-label="Toggle theme">
+          <i data-lucide="moon"></i>
+        </button>
+        <a href="#contact" class="btn btn-primary magnetic-btn">
+          <span>Get in Touch</span>
+          <i data-lucide="arrow-right"></i>
+        </a>
+        <button id="mobile-menu-btn" class="icon-btn mobile-only" aria-label="Open menu">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobile-menu" class="mobile-drawer hidden">
+      <a href="#about" class="mobile-nav-link"><i data-lucide="user"></i> About</a>
+      <a href="#skills" class="mobile-nav-link"><i data-lucide="code-2"></i> Skills</a>
+      <a href="#experience" class="mobile-nav-link"><i data-lucide="briefcase"></i> Experience</a>
+      <a href="#projects" class="mobile-nav-link"><i data-lucide="rocket"></i> Projects</a>
+      <a href="#certifications" class="mobile-nav-link"><i data-lucide="award"></i> Certifications</a>
+      <a href="#education" class="mobile-nav-link"><i data-lucide="graduation-cap"></i> Education</a>
+      <a href="#contact" class="mobile-nav-link"><i data-lucide="send"></i> Contact</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <section id="hero">
+      <canvas id="hero-canvas"></canvas>
+
+      <div class="hero-content">
+        <!-- Status Badge -->
+        <div class="reveal hero-badge">
+          <span class="status-pulse"></span>
+          <span>Actively Seeking Web Development Internship</span>
+        </div>
+
+        <!-- Main Title -->
+        <h1 class="reveal hero-title">
+          Hi, I'm <span class="gradient-text">Chaithanya Neelam</span>
+        </h1>
+
+        <!-- Typewriter Subtitle -->
+        <div class="reveal hero-subtitle">
+          <span>I am a</span>
+          <span id="typewriter" class="typewriter-text"></span>
+          <span class="typewriter-cursor">|</span>
+        </div>
+
+        <!-- Tagline / Bio summary -->
+        <p class="reveal hero-bio">
+          Proficient in architecting scalable applications using <strong>Next.js, React, Node.js, and
+            TypeScript</strong>. Dedicated to building responsive, user-centric interfaces and secure, high-performance
+          backend systems.
+        </p>
+
+        <!-- CTA Buttons -->
+        <div class="reveal hero-ctas">
+          <a href="#projects" class="btn btn-primary btn-lg magnetic-btn">
+            <i data-lucide="layout"></i>
+            <span>Explore Projects</span>
+          </a>
+
+          <button id="resume-btn" class="btn btn-secondary btn-lg magnetic-btn">
+            <i data-lucide="file-text"></i>
+            <span>View & Download Resume</span>
+          </button>
+
+          <a href="#contact" class="btn btn-outline btn-lg">
+            <i data-lucide="mail"></i>
+            <span>Contact Me</span>
+          </a>
+        </div>
+
+        <!-- Quick Stats Grid (Fixed horizontal alignment) -->
+        <div class="reveal stats-grid">
+          <div class="stat-card">
+            <span class="stat-number">300+</span>
+            <span class="stat-label">EdTech Games Deployed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Partner Schools (SaaS)</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">₹1L-5L</span>
+            <span class="stat-label">ARR Platform Revenue</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">8.5</span>
+            <span class="stat-label">B.Tech CGPA</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Scroll Indicator -->
+      <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+        <span class="scroll-text">Scroll Down</span>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+      </a>
+    </section>
+
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">About Me</span>
+          <h2 class="section-title">Architecting Products with Purpose & Precision</h2>
+          <p class="section-subtitle">Combining entrepreneurial drive with technical rigor to build seamless web
+            experiences.</p>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Highlight Card -->
+          <div class="reveal">
+            <div class="card spotlight-card about-card">
+              <div class="card-icon-box">
+                <i data-lucide="terminal"></i>
+              </div>
+              <h3 class="card-title">Founder & Full-Stack Builder</h3>
+              <p class="card-text">
+                I don't just write code — I build end-to-end products that solve real-world problems. Having
+                single-handedly launched <strong>StudBridge Kids</strong> and scaled educational platforms for hundreds
+                of students, I bring a unique blend of engineering speed and architectural quality.
+              </p>
+
+              <div class="about-meta">
+                <div class="meta-item">
+                  <i data-lucide="map-pin" class="accent-icon"></i>
+                  <span>Based in <strong>Chennai, Tamil Nadu</strong></span>
+                </div>
+                <div class="meta-item">
+                  <i data-lucide="graduation-cap" class="accent-icon"></i>
+                  <span>B.Tech CSE @ Saveetha School of Engineering</span>
+                </div>
+                <div class="meta-item">
+                  <i data-lucide="award" class="accent-icon"></i>
+                  <span>Oracle Database SQL Certified Specialist</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Key Pillars Grid -->
+          <div class="reveal">
+            <div class="pillars-grid">
+
+              <div class="card spotlight-card pillar-card">
+                <div class="pillar-icon bg-indigo">
+                  <i data-lucide="layers"></i>
+                </div>
+                <h4 class="pillar-title">Modern Frontend</h4>
+                <p class="pillar-desc">
+                  Crafting responsive, high-performance user interfaces using React, Next.js, TypeScript, Tailwind CSS,
+                  and Framer Motion.
+                </p>
+              </div>
+
+              <div class="card spotlight-card pillar-card">
+                <div class="pillar-icon bg-emerald">
+                  <i data-lucide="server"></i>
+                </div>
+                <h4 class="pillar-title">Robust Backend</h4>
+                <p class="pillar-desc">
+                  Designing secure REST APIs and microservices with Node.js, Express, Spring Boot, Flask, and Argon2/JWT
+                  authentication.
+                </p>
+              </div>
+
+              <div class="card spotlight-card pillar-card">
+                <div class="pillar-icon bg-blue">
+                  <i data-lucide="database"></i>
+                </div>
+                <h4 class="pillar-title">Data & Spatial Systems</h4>
+                <p class="pillar-desc">
+                  Architecting SQL/NoSQL databases with PostgreSQL (PostGIS geo-location), MongoDB, and MySQL for
+                  performance and scale.
+                </p>
+              </div>
+
+              <div class="card spotlight-card pillar-card">
+                <div class="pillar-icon bg-amber">
+                  <i data-lucide="cpu"></i>
+                </div>
+                <h4 class="pillar-title">Product Execution</h4>
+                <p class="pillar-desc">
+                  Led intern teams, deployed 300+ interactive modules, closed B2B school partnerships, and maintained
+                  99.9% platform uptime.
+                </p>
+              </div>
+
+            </div>
+
+            <div class="quote-card">
+              <i data-lucide="quote" class="quote-icon"></i>
+              <p class="quote-text">
+                "I am eager to contribute my full-stack capabilities, clean code standards, and product ownership
+                mindset to an ambitious engineering team as a Web Development Intern."
+              </p>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SKILLS SECTION (Fixed Responsive CSS Grid) -->
+    <section id="skills" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Technical Stack</span>
+          <h2 class="section-title">Core Competencies & Tools</h2>
+          <p class="section-subtitle">A comprehensive toolkit honed through real-world SaaS deployment, enterprise
+            internships, and computer science fundamentals.</p>
+        </div>
+
+        <!-- Filter Tabs -->
+        <div class="reveal skills-filter">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="frontend">Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend & CS</button>
+          <button class="filter-btn" data-filter="databases">Databases</button>
+          <button class="filter-btn" data-filter="tools">Tools & DevOps</button>
+        </div>
+
+        <!-- CSS Grid Container (Explicit repeat auto-fit grid minmax 220px) -->
+        <div id="skills-grid" class="skills-grid">
+
+          <!-- FRONTEND SKILLS -->
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="globe"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Next.js</span>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="atom"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">React</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="file-code-2"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">TypeScript</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="code"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">JavaScript (ES6+)</span>
+              <span class="skill-level">Expert</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="wind"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Tailwind CSS</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Framer Motion</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="layout-template"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">HTML5 / CSS3</span>
+              <span class="skill-level">Expert</span>
+            </div>
+          </div>
+
+          <!-- BACKEND SKILLS -->
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="server"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Node.js</span>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="cpu"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Express.js</span>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="box"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Spring Boot</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="flame"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Flask</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="network"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">RESTful APIs</span>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="shield-check"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">JWT & Argon2</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="binary"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Python & Java</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="git-branch"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">DSA & OS</span>
+              <span class="skill-level">Strong Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- DATABASES -->
+          <div class="skill-card reveal" data-category="databases">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="database"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">PostgreSQL (PostGIS)</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="databases">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="hard-drive"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">MongoDB</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="databases">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="table"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">MySQL</span>
+              <span class="skill-level">Certified</span>
+            </div>
+          </div>
+
+          <!-- TOOLS -->
+          <div class="skill-card reveal" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="git-fork"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Git & Postman</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="cloud"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Vercel & Render</span>
+              <span class="skill-level">Proficient</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="search"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">SEO Optimization</span>
+              <span class="skill-level">Intermediate</span>
+            </div>
+          </div>
+
+          <div class="skill-card reveal" data-category="tools">
+            <div class="skill-icon-wrapper">
+              <i data-lucide="bot"></i>
+            </div>
+            <div class="skill-info">
+              <span class="skill-name">Cursor AI</span>
+              <span class="skill-level">Advanced</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section bg-light">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Career Track</span>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Real leadership, product ownership, and engineering impact across startups and
+            EdTech companies.</p>
+        </div>
+
+        <div class="timeline-container">
+
+          <!-- Experience 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="card spotlight-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-date">Mar 2026 – Present</span>
+                  <h3 class="card-title">Founder & Lead Full-Stack Developer</h3>
+                  <span class="card-subtitle">StudBridge Kids</span>
+                </div>
+                <span class="badge badge-indigo">SaaS Venture</span>
+              </div>
+
+              <p class="card-text mb-4">
+                Single-handedly architected and shipped a kids-focused SaaS learning platform (Next.js +
+                Node.js/Express.js) from zero to live, owning infrastructure, product strategy, and full platform
+                uptime.
+              </p>
+
+              <ul class="bullet-list mb-4">
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Closed B2B deals with <strong>3
+                      partner schools</strong>, generating <strong>₹1L–5L ARR</strong>.</span></li>
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Recruited and led a team of <strong>8
+                      interns</strong> to deploy <strong>300+ curriculum-aligned educational games</strong> serving
+                    200–500 active students.</span></li>
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Implemented RBAC workflows,
+                    multi-tenant database isolation, and automated meeting integration.</span></li>
+              </ul>
+
+              <div class="tag-row">
+                <span class="tag">Next.js</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">MongoDB</span>
+                <span class="tag">Team Leadership</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="card spotlight-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-date">Nov 2025 – Jan 2026</span>
+                  <h3 class="card-title">Full Stack Developer</h3>
+                  <span class="card-subtitle">Wonderkids.club <span class="muted-text">(Vaultboard
+                      Consulting)</span></span>
+                </div>
+                <span class="badge badge-gray">EdTech Venture</span>
+              </div>
+
+              <p class="card-text mb-4">
+                Engineered interactive learning applications and underlying data collection infrastructure to elevate
+                student engagement and track learning outcomes.
+              </p>
+
+              <ul class="bullet-list mb-4">
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Engineered <strong>40+ interactive
+                      math games</strong> using HTML, CSS, JavaScript, and PHP with fluid user interaction.</span></li>
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Architected a
+                    <strong>Node.js/Express.js backend analytics</strong> system to log and visualize core student
+                    performance metrics.</span></li>
+              </ul>
+
+              <div class="tag-row">
+                <span class="tag">JavaScript</span>
+                <span class="tag">Node.js</span>
+                <span class="tag">Express.js</span>
+                <span class="tag">PHP</span>
+                <span class="tag">Analytics</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="card spotlight-card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <span class="timeline-date">Sep 2025 – Nov 2025</span>
+                  <h3 class="card-title">Tech Intern</h3>
+                  <span class="card-subtitle">Kreedo Early Childhood Solutions</span>
+                </div>
+                <span class="badge badge-gray">Enterprise Internship</span>
+              </div>
+
+              <p class="card-text mb-4">
+                Assisted in operational scaling and stability of multi-center early childhood learning management
+                applications.
+              </p>
+
+              <ul class="bullet-list mb-4">
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Optimized multi-center product systems
+                    and streamlined internal operational workflows.</span></li>
+                <li><i data-lucide="check-circle-2" class="bullet-icon"></i><span>Resolved critical technical bug
+                    tickets and deployed operational feature improvements.</span></li>
+              </ul>
+
+              <div class="tag-row">
+                <span class="tag">Bug Maintenance</span>
+                <span class="tag">System Optimization</span>
+                <span class="tag">Operations Support</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section id="projects" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Portfolio</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Deep dive into full-stack architectures built for scalability, security, and
+            exceptional user experience.</p>
+        </div>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT CARD 1 -->
+          <div class="card spotlight-card project-card reveal">
+            <div>
+              <div class="project-header">
+                <span class="badge badge-indigo">SaaS Education Platform</span>
+                <span class="project-date"><i data-lucide="calendar"></i> Mar 2026 – Apr 2026</span>
+              </div>
+
+              <h3 class="project-title">StudBridge — Multi-Tenant SaaS</h3>
+              <p class="card-text mb-4">
+                Full-stack multi-tenant SaaS platform built with Role-Based Access Control (RBAC) for secure expert and
+                student workflows across separate institutional tenants.
+              </p>
+
+              <div class="project-highlights mb-6">
+                <div class="highlight-item">
+                  <i data-lucide="shield" class="highlight-icon"></i>
+                  <span>Granular RBAC for Admins, Teachers, and Students across isolated school environments.</span>
+                </div>
+                <div class="highlight-item">
+                  <i data-lucide="link-2" class="highlight-icon"></i>
+                  <span><strong>Google API "Media Bridge":</strong> Automates real-time Google Meet scheduling & Drive
+                    storage sync.</span>
+                </div>
+                <div class="highlight-item">
+                  <i data-lucide="zap" class="highlight-icon"></i>
+                  <span>High-concurrency games delivery engine serving 500+ active students.</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="tag-row mb-6">
+                <span class="tag-accent">Node.js</span>
+                <span class="tag-accent">MongoDB</span>
+                <span class="tag-accent">JavaScript</span>
+                <span class="tag-accent">Express.js</span>
+                <span class="tag-accent">RBAC</span>
+                <span class="tag-accent">Google APIs</span>
+              </div>
+
+              <div class="card-actions">
+                <button class="btn btn-primary btn-sm open-modal-btn" data-project="1">
+                  <span>View Architecture</span>
+                  <i data-lucide="external-link"></i>
+                </button>
+                <a href="https://github.com/chaithanyaneelam" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm">
+                  <i data-lucide="github"></i>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT CARD 2 -->
+          <div class="card spotlight-card project-card reveal">
+            <div>
+              <div class="project-header">
+                <span class="badge badge-emerald">E-Commerce Microservices</span>
+                <span class="project-date"><i data-lucide="calendar"></i> Feb 2026 – Mar 2026</span>
+              </div>
+
+              <h3 class="project-title">Retail Core Services — E-Commerce Backend</h3>
+              <p class="card-text mb-4">
+                High-performance, secure backend architecture supporting multi-vendor inventory management, spatial
+                delivery calculations, and strict controller-service-repository patterns.
+              </p>
+
+              <div class="project-highlights mb-6">
+                <div class="highlight-item">
+                  <i data-lucide="map-pin" class="highlight-icon"></i>
+                  <span><strong>PostgreSQL + PostGIS:</strong> Enabled geospatial location tracking & location-aware
+                    delivery route calculations.</span>
+                </div>
+                <div class="highlight-item">
+                  <i data-lucide="key-round" class="highlight-icon"></i>
+                  <span><strong>Enterprise Security:</strong> Argon2 password hashing, JWT session rotation, and Zod
+                    runtime schema validation.</span>
+                </div>
+                <div class="highlight-item">
+                  <i data-lucide="workflow" class="highlight-icon"></i>
+                  <span>Strict Controller-Service-Repository pattern for decoupled maintainability.</span>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="tag-row mb-6">
+                <span class="tag-accent">Node.js</span>
+                <span class="tag-accent">TypeScript</span>
+                <span class="tag-accent">PostgreSQL</span>
+                <span class="tag-accent">PostGIS</span>
+                <span class="tag-accent">Zod</span>
+                <span class="tag-accent">Argon2 / JWT</span>
+              </div>
+
+              <div class="card-actions">
+                <button class="btn btn-primary btn-sm open-modal-btn" data-project="2">
+                  <span>View Architecture</span>
+                  <i data-lucide="external-link"></i>
+                </button>
+                <a href="https://github.com/placeholder" target="_blank" rel="noopener noreferrer"
+                  class="btn btn-outline btn-sm">
+                  <i data-lucide="github"></i>
+                  <span>GitHub Repository</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CERTIFICATIONS SECTION -->
+    <section id="certifications" class="section bg-light">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Credentials</span>
+          <h2 class="section-title">Industry Certification</h2>
+          <p class="section-subtitle">Formal validation of technical database mastery and SQL standard proficiency.</p>
+        </div>
+
+        <div class="card spotlight-card cert-card reveal">
+          <div class="cert-info">
+            <div class="cert-badge-box">
+              <i data-lucide="database"></i>
+            </div>
+            <div>
+              <span class="badge badge-amber mb-2">Oracle Corporation • Certified Nov 2024</span>
+              <h3 class="card-title">Oracle Database SQL Certified Specialist</h3>
+              <p class="card-text">
+                Demonstrated expert competency in relational database concepts, complex SQL query tuning, data modeling,
+                DDL/DML execution, and transactional integrity.
+              </p>
+            </div>
+          </div>
+
+          <div class="cert-verify">
+            <span class="verify-tag">
+              <i data-lucide="check-circle-2"></i> Verified Credential
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section">
+      <div class="section-container">
+        <div class="section-header">
+          <span class="section-badge">Academic Background</span>
+          <h2 class="section-title">Education & Qualifications</h2>
+          <p class="section-subtitle">Consistent academic excellence across computer science engineering and
+            foundational schooling.</p>
+        </div>
+
+        <div class="education-grid">
+
+          <div class="card spotlight-card edu-card reveal">
+            <div>
+              <div class="edu-icon bg-indigo mb-4">
+                <i data-lucide="graduation-cap"></i>
+              </div>
+              <span class="edu-date">Aug 2023 – 2027</span>
+              <h3 class="card-title mt-1 mb-1">B.Tech Computer Science</h3>
+              <p class="card-subtitle">Saveetha School of Engineering</p>
+            </div>
+            <div class="edu-footer">
+              <span class="muted-text">Grade / CGPA</span>
+              <span class="stat-mono-badge">8.5 CGPA</span>
+            </div>
+          </div>
+
+          <div class="card spotlight-card edu-card reveal">
+            <div>
+              <div class="edu-icon bg-emerald mb-4">
+                <i data-lucide="school"></i>
+              </div>
+              <span class="edu-date">Intermediate (12th)</span>
+              <h3 class="card-title mt-1 mb-1">MPC Stream</h3>
+              <p class="card-subtitle">Sri Chaitanya Jr College, Tirupati</p>
+            </div>
+            <div class="edu-footer">
+              <span class="muted-text">Percentage</span>
+              <span class="stat-mono-badge">90%</span>
+            </div>
+          </div>
+
+          <div class="card spotlight-card edu-card reveal">
+            <div>
+              <div class="edu-icon bg-amber mb-4">
+                <i data-lucide="book-open"></i>
+              </div>
+              <span class="edu-date">SSC (10th Standard)</span>
+              <h3 class="card-title mt-1 mb-1">Secondary School</h3>
+              <p class="card-subtitle">Veda Vyasa Vidyanikethan High School</p>
+            </div>
+            <div class="edu-footer">
+              <span class="muted-text">Grade / CGPA</span>
+              <span class="stat-mono-badge">10 CGPA</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-badge badge-dark">Get In Touch</span>
+          <h2 class="section-title text-white">Let's Build Something Great Together</h2>
+          <p class="section-subtitle text-gray">Open to full-stack internship opportunities, software developer roles,
+            and technical collaborations.</p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Direct Info -->
+          <div class="reveal">
+            <h3 class="contact-info-title">Direct Contact Details</h3>
+
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon bg-indigo">
+                  <i data-lucide="mail"></i>
+                </div>
+                <div>
+                  <span class="contact-label">Email Address</span>
+                  <a href="mailto:neelamchaithanya6@gmail.com" class="contact-value">neelamchaithanya6@gmail.com</a>
+                </div>
+              </div>
+              <button class="copy-btn icon-btn" data-copy="neelamchaithanya6@gmail.com" title="Copy email">
+                <i data-lucide="copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon bg-emerald">
+                  <i data-lucide="phone"></i>
+                </div>
+                <div>
+                  <span class="contact-label">Phone / WhatsApp</span>
+                  <a href="tel:+916304886413" class="contact-value">+91 6304886413</a>
+                </div>
+              </div>
+              <button class="copy-btn icon-btn" data-copy="+916304886413" title="Copy phone number">
+                <i data-lucide="copy"></i>
+              </button>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-card-content">
+                <div class="contact-icon bg-amber">
+                  <i data-lucide="map-pin"></i>
+                </div>
+                <div>
+                  <span class="contact-label">Location</span>
+                  <span class="contact-value">Chennai, Tamil Nadu, India</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="social-row">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <i data-lucide="linkedin"></i>
+                <span>LinkedIn</span>
+              </a>
+              <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn">
+                <i data-lucide="github"></i>
+                <span>GitHub</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="reveal">
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name" class="form-label">Your Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Alex Morgan" class="form-input" />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Your Email</label>
+                  <input type="email" id="email" name="email" required placeholder="alex@company.com"
+                    class="form-input" />
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" id="subject" name="subject" required
+                  placeholder="Internship Opportunity / Project Inquiry" class="form-input" />
+              </div>
+
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" rows="5" required
+                  placeholder="Hi Chaithanya, I came across your portfolio and would love to connect regarding..."
+                  class="form-input form-textarea"></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-lg w-full">
+                <span>Send Message</span>
+                <i data-lucide="send"></i>
+              </button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-brand">
+        <span class="logo-box">CN</span>
+        <span>© 2026 <strong>Chaithanya Neelam</strong>. All rights reserved.</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a href="#hero" class="btn btn-outline btn-sm">
+        <span>Back to Top</span>
+        <i data-lucide="arrow-up"></i>
+      </a>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAILS MODAL -->
+  <div id="project-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div>
+          <span id="modal-category" class="badge badge-indigo mb-2">Project Overview</span>
+          <h3 id="modal-title" class="modal-title-text">Project Title</h3>
+        </div>
+        <button id="close-modal" class="icon-btn">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="modal-body space-y-6">
+        <div>
+          <h4 class="modal-section-title">Description & Architecture</h4>
+          <p id="modal-description" class="modal-desc-text">Detailed breakdown...</p>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title">Key Technical Highlights</h4>
+          <ul id="modal-highlights" class="modal-list"></ul>
+        </div>
+
+        <div>
+          <h4 class="modal-section-title">Technologies Deployed</h4>
+          <div id="modal-tech" class="tag-row"></div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <a id="modal-github-link" href="https://github.com" target="_blank" rel="noopener noreferrer"
+          class="btn btn-outline btn-sm">
+          <i data-lucide="github"></i> View Repository
+        </a>
+        <button id="modal-close-btn" class="btn btn-primary btn-sm">
+          Close Window
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- RESUME MODAL -->
+  <div id="resume-modal" class="modal-backdrop hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <div class="flex items-center gap-3">
+          <i data-lucide="file-text" class="accent-icon"></i>
+          <div>
+            <h3 class="modal-title-text">Chaithanya Neelam — Official Resume</h3>
+            <span class="muted-text">Full-Stack Developer & Founder</span>
+          </div>
+        </div>
+        <button id="close-resume-modal" class="icon-btn">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <div class="modal-body space-y-4">
+        <div class="border-b pb-3">
+          <h4 class="font-bold text-lg">Chaithanya Neelam</h4>
+          <p class="text-sm accent-text">neelamchaithanya6@gmail.com • +91 6304886413 • Chennai, Tamil Nadu</p>
+        </div>
+
+        <div>
+          <h5 class="resume-heading">Executive Summary</h5>
+          <p class="text-sm leading-relaxed">Full-Stack Developer seeking a web development internship. Proficient in
+            architecting scalable applications using Next.js, React, Node.js, and TypeScript. Dedicated to building
+            responsive, user-centric interfaces and secure, high-performance backend systems.</p>
+        </div>
+
+        <div>
+          <h5 class="resume-heading">Technical Skills</h5>
+          <p class="text-sm"><strong>Frontend:</strong> Next.js, React, TypeScript, JavaScript (ES6+), Tailwind CSS,
+            Framer Motion, HTML5, CSS3</p>
+          <p class="text-sm"><strong>Backend & Systems:</strong> Node.js, Express.js, Spring Boot, Flask, RESTful APIs,
+            JWT Authentication, Argon2, Python, Java, DSA</p>
+          <p class="text-sm"><strong>Databases:</strong> PostgreSQL (PostGIS), MongoDB, MySQL (Oracle SQL Certified)</p>
+          <p class="text-sm"><strong>Tools:</strong> Git, Postman, Chrome DevTools, Vercel, Render, SEO Optimization,
+            Cursor AI</p>
+        </div>
+
+        <div>
+          <h5 class="resume-heading">Experience</h5>
+          <div class="space-y-3">
+            <div>
+              <div class="flex justify-between font-bold text-sm">
+                <span>Founder & Lead Developer — StudBridge Kids</span>
+                <span>Mar 2026 – Present</span>
+              </div>
+              <p class="text-xs muted-text mt-1">Single-handedly architected kids SaaS learning platform (Next.js +
+                Node.js/Express.js). Closed B2B deals with 3 partner schools generating ₹1L–5L ARR. Led 8 interns
+                deploying 300+ educational games for 200–500 students.</p>
+            </div>
+            <div>
+              <div class="flex justify-between font-bold text-sm">
+                <span>Full Stack Developer — Wonderkids.club (Vaultboard Consulting)</span>
+                <span>Nov 2025 – Jan 2026</span>
+              </div>
+              <p class="text-xs muted-text mt-1">Engineered 40+ interactive math games (HTML, CSS, JS, PHP) and
+                architected Node.js/Express.js backend analytics.</p>
+            </div>
+            <div>
+              <div class="flex justify-between font-bold text-sm">
+                <span>Tech Intern — Kreedo Early Childhood Solutions</span>
+                <span>Sep 2025 – Nov 2025</span>
+              </div>
+              <p class="text-xs muted-text mt-1">Optimized multi-center systems, resolved bug tickets, and deployed
+                operational features.</p>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h5 class="resume-heading">Education</h5>
+          <p class="text-sm"><strong>Saveetha School of Engineering:</strong> B.Tech CSE (2023–2027) — CGPA 8.5</p>
+          <p class="text-sm"><strong>Sri Chaitanya Jr College:</strong> Intermediate (12th) — 90%</p>
+          <p class="text-sm"><strong>Veda Vyasa Vidyanikethan:</strong> SSC (10th) — 10 CGPA</p>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <button id="download-print-resume" class="btn btn-primary btn-sm">
+          <i data-lucide="printer"></i> Print / Download PDF
+        </button>
+        <button id="close-resume-btn" class="btn btn-outline btn-sm">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast" class="toast hidden">
+    <i data-lucide="check-circle" class="toast-icon"></i>
+    <span id="toast-msg">Action completed!</span>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+</body>
+
+</html>
