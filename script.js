@@ -341,7 +341,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'High-concurrency games serving engine running 300+ curriculum modules.'
       ],
       tech: ['Next.js', 'Node.js', 'Express.js', 'MongoDB', 'JavaScript', 'RBAC Security', 'Google APIs', 'Vercel'],
-      github: 'https://github.com/placeholder'
+      github: 'https://github.com/chaithanyaneelam/Nexus-Platform'
     },
     '2': {
       title: 'Retail Core Services — E-Commerce Microservices Backend',
@@ -354,7 +354,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'Scalable RESTful endpoints for vendor catalog management and real-time order processing.'
       ],
       tech: ['Node.js', 'TypeScript', 'PostgreSQL', 'PostGIS', 'Zod Validation', 'Argon2 Hashing', 'JWT Auth', 'REST APIs'],
-      github: 'https://github.com/placeholder'
+      github: 'https://github.com/chaithanyaneelam/retail-core-service'
     }
   };
 
