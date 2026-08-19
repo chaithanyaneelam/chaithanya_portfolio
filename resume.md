@@ -744,17 +744,31 @@ We need the truth behind this.
 
 Employee / intern / contractor / freelance / college project?
 
+ans:- intern
+
 ### F2. Who assigned the work?
+
+ans:- he is an co-founder of the [wonderkids.club](http://wonderkids.club) and his name was saurabh.
 
 ### F3. How many people were on the engineering team?
 
+ans:- i only meet the team of two people only, there was only 5 employees in the company, it is an early stage startup.
+
 ### F4. Which 40+ games did you personally build?
+
+ans:- yes i built and i used ai to build all the stuff.
 
 ### F5. What technologies were used?
 
+ans:- html, css , javascript, PhP(basic) , node.js, express.js, mysql.
+
 ### F6. Did you write the frontend?
 
+ans:- yes, the games was been developed by me is purely frontend.
+
 ### F7. Did you write the backend?
+
+ans:- yes i have asigned an backend module, were i should create an module that sends the students performance to the parents, i should be compare the current student with the top three avg and should decide the weak or strong in the topics.
 
 ### F8. What analytics were tracked?
 
@@ -767,19 +781,34 @@ Examples:
 - retention
 - errors
 
+ans:- the score and the time spent and the correct and incorrect answers and the sessions will tracked and used to create the reports for the student for sending parents.
+
 ### F9. How was analytics data stored?
+
+ans:- the data will be stored in the mysql, and then the analytics will be stored as the accuracy in the database, and that accuracy will be compared to the class top 3 avg, and the weak and the strong will not store in the database, when a request comes at that time in what level the student is there will be calculated.
 
 ### F10. How was it queried?
 
+ans:- using the joins i was queried. the students accuracy table and the students time spent and sessions table will be joined and then will take the top 3 avg from that particular school by group class and by having we will filter the weak and the strong.
+
 ### F11. What was the hardest bug?
+
+ans:- i havent encounterd the biggest bugs in this company, but while building the frontend module i was suffered for the 3d shaped and canvas for few days that the shapes are not drawn perfectly. so i fixed them with the ai.
 
 ### F12. Tell me about one feature you shipped end-to-end.
 
+ans:- the student analatycs reports was been shipped from the end to.
+
 ### F13. Did real children/users use these games?
+
+ans:- yes.
 
 ### F14. Approximately how many?
 
-### F15. Did you have measurable impact?
+ans:- more than 4000+
+
+### F15. Did you have measurable impact?  
+ans:- yes, the reports was an outstanding feature in that company and for the sales of that, they pitched that the reports can be view by parents at any moment they want and tracak there kids performance.
 
 ---
 
