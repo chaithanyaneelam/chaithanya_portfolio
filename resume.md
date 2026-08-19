@@ -822,9 +822,15 @@ This is potentially valuable.
 
 ### G1. What product/system did you work on?
 
+ans:- i am worked there as technical intern, it is an pltfrom for the employees to add the data, it is an edtech platform.
+
 ### G2. What was your role exactly?
 
+ans:- were they have an internl platform, in that is hould be an direct technical contact to the support team, i should look into the tickets they send and should resolve it, if the issue is bigger then i need to inform to the manager, and then the task is completed i will push to the github and inform the team they will review the pr and merge to the main brach. but they assgined me modules more instead of these bug fixes.
+
 ### G3. What programming language/framework did you use?
+
+ans:- for the fontend i used react. and then for backend i used node.js, express.js and django and my sql.
 
 ### G4. Give me 5 actual bugs you fixed.
 
@@ -835,23 +841,41 @@ For each:
 - fix
 - result
 
+ans:- there is an feature in there portal that the employees will add the student marks to the platfrom, that was developed by me, then the issue i fixed there is if the student studies the same school for the next academic year they should manually promote them, i have built an thing so they can promote the selecte students easily with one click, and i have cleaned the duplicate numbers in excel for whatsapp integration.
+
 ### G5. Which bug was hardest?
+
+ans:- haven't encoutered the biggest bug in this company.
 
 ### G6. Did you use logs, debugging tools, database queries, browser DevTools, etc.?
 
+ans:- i used the database queries and the devtools here.
+
 ### G7. Did you work with Git?
+
+ans:- yes i worked on git.
 
 ### G8. Did you create pull requests?
 
+ans:- yes.
+
 ### G9. Did engineers review your code?
 
+ans:- yes, after review they will push the code to the github.
+
 ### G10. How did you test before deployment?
+
+ans:- i not worked in this specific thing.
 
 ### G11. What does "multi-center product systems" actually mean?
 
 Explain in normal language.
 
+ans:- so these platform connects the employees of different sectors, one is to post the ppt's one is to post the syllabus, one is to add the students, one is to add the exams syllabus, etc so all these people will work in these platform.
+
 ### G12. What measurable improvement did your work produce?
+
+ans:- the product has got new update that make the employees work easier.
 
 ---
 
@@ -876,15 +900,27 @@ Now prove it.
 
 ### H1. Is this a personal project or work done for a company/client?
 
+ans:- it is personal project.
+
 ### H2. How much code did you personally write?
+
+ans:_ the few modules i have written and the rest was written by ai. the architecture and then the databse design was done by me and for some moodules i written code to tell ai to do the code in this formate.
 
 ### H3. Why TypeScript?
 
+ans:- because it gives the strict validation and type safety and apart from it i have used to learn the things.
+
 ### H4. Why PostgreSQL?
+
+ans:- so the postgres sql is an enterprise grade and can handle complex data and complex joins, for a ecomerse and retail backend the data should updare perfectly and should be in sync the postegresql will allow strict acid so the data will never missmatch, and by using zod the postegresql will be strict in the type safety too.
 
 ### H5. Why PostGIS?
 
+ans:-so i have an feature to calculate the lat and lang of the customer and retail shop so these postgis will be perfectly supportable and easy to maintain in the same db instead of using any third party api's.
+
 ### H6. Explain the Controller-Service-Repository pattern in your implementation.
+
+ans:- so when a request comes to the server it will go middle ware and then it will go to the routes and then the routes the routes will send it to the controller layer were the request and the responses will be handled, the data will be validated in the controller layer by sendin them to the zod validator and the json payload will be sent to the services layer, were the business logic is written and these layer will be in direct contact with the repository layer, were the sql queries are encapsulated in the repository layer, so the rpository layer will execute the queries to the database, and after the query execution it will send an success msg to the service layer then the service layer send it to controller then the controller returs the response.
 
 ### H7. Why did you choose it?
 
