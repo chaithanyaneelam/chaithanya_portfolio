@@ -675,13 +675,23 @@ ans:- its my own product.
 
 ### E4. Who were the users?
 
+ans:- the users are job proffecional and the college students were the proffecionals can create the courses in the platform and the students can enroll the course and get the mentorship and learn from them.
+
 ### E5. What did you personally build?
+
+ans:- i personally built these entire platfrom without any other's interaction for the studbridge.
 
 ### E6. Explain the multi-tenant architecture.
 
+ans:- a multi tenant architecture means an single instance of software and its supporting infrastructure serves multiple distinct customer groups. so when an user registers account to the platfrom with there role we will be assinging an payload and storing that particular role in the database and generate the token accouding to the role we will display the data. 
+
 ### E7. How did tenant isolation work?
 
+ans:- so as now each shcool owner get an tenant id and for all the shool students will have an tenant id and when an school owner logins then the middleware extracts the tenant id from the owners token and queries all table with that table and get that school students data and sends to the owner, so as of now we are not maintaining each database for each shool.
+
 ### E8. Explain RBAC.
+
+ans:- RBAC stands for role bases access controll, which will make the user to interact the platfrom according to there role. so when an user register with there role then the token will be created according to there json payload so when they login the middle ware finds there role make the user to interact only with there accessed routes, if they accessed any other routes then tey will get 403 forbidden error.
 
 ### E9. What did the Google "Media Bridge" actually do?
 
@@ -694,7 +704,11 @@ Break down:
 - permissions
 - failure cases
 
+ans:- so i got the api keys from the google console and then integrated the google meet creation through my platform and the user can shedule the meetings and can start the meeting instantly and can share the link to the students. ad then the flow would be like the meet will be created uder there email id itself instead of the platfrom owners and then they can get there whole meet access in the meeting, if there was any error found while creating the meeting, then the log will be stored in detail in databse and then the user see try again in few time text in the frontend.
+
 ### E10. What was technically hard?
+
+ans:- i faced integrating the youtube here, when the meet is started it should recored and after completing it automatically should store that video record in the google drive and should post to the youtube, even some restrictions from the google in the free tier i have tried vey hard to integrate the things from my platform, so it is failed, but i have built these entire workflow perfectly in n8n but it isdifferent project, that the user only gives the text like explain docker, then the n8n will send it to gemini and and make an clear prompt for creating the video and then it will be stored in the claudinay and then for the audio the rompt will snet to the eleven labs and the both audio and video will be sent to the json to vidoe and add captions and creating video we will post it in the youtube automatically.
 
 ### E11. Was it deployed?
 
