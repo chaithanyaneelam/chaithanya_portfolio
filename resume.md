@@ -629,17 +629,29 @@ ans:- unknown
 
 ### D19. What exactly did the 8 interns do?
 
+ans:- the 8 interns will be assigned the work to develop the games which is math based curricullum aligned, i am the supervisor will be going to assign the topics in math which should be gonna created as game, then the interns will be going to develop the game in html, css and js and will send for the code review and game approval through whatsapp, i will review the code and game, if all ok i will deploy the game to the platform.
+
 ### D20. How did you review their code/work?
+
+ans:- so i will be not only checking the ui, i will check the game architecture and the game can generate as many as questions dynaically, and the functions are perfectly written and performs without any glitch and the UI and UX is better for a kid, so this things i am gonna review in the code and work of the interns. 
 
 ### D21. Did you use Git branches / pull requests / code review?
 
 Explain.
 
+ans:- yes, i have used the git branches but i havent used pr's max, so while developing any new feature to the platform instead of writting the code in the main brach i will create an new brach and write the new features code there and push to the github and merge with the main brach, and for the code review i am learning to iplement an architecture document in the git workflow so when th inters send the code it will eveluate minor things.
+
 ### D22. What was your biggest leadership failure?
+
+ans:- the biggest leadership failure to me is not making the interns to understand the games architecture clearly and the structure so it missleads to lots of time waste and repeating same task to complete perfectly and another is not proviiding the proper time to manage the interns while paralelly i am developing the platform
 
 ### D23. What did you learn from managing people?
 
+ans:- while managing people i have learnt providing the clear requirments and the architecture, so as from the supervisor there will be an architecture but the nest one can come from any one so asking the suggestions is the better way to improve is the another thing i learnt.
+
 ### D24. What did you personally learn as an engineer by building this?
+
+ans:- as an engineer i learnt that with out an perfect team we will be backed few steps while building the production grade applications, and thinkig to build entire thing by only one is high impossible in required time so as an engineer we should know the time management and the prioitizing and to handle the team to move towards the goal.
 
 ---
 
