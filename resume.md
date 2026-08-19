@@ -714,11 +714,19 @@ ans:- i faced integrating the youtube here, when the meet is started it should r
 
 Where?
 
+ans:- yes it is deplyed in the domain of studbridge.com, and the kids platform was deployed in the studbridge.com/kids
+
 ### E12. How many users used it?
+
+ans:- probably 5 to 8 working job profecionals in the it job form the years of experience of 5 to 20 years and the students from the b teach with the count of 10 to 15
 
 ### E13. Can you demonstrate it?
 
 Provide links/screenshots if possible.
+
+ans:- yes
+
+link:- [https://studbridge.com/](https://studbridge.com/)
 
 ---
 
