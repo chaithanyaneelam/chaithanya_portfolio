@@ -956,6 +956,8 @@ ans:- it will check the json payload and the inputs form the user whether it is 
 
 ### H15. What validation happens at the API boundary?
 
+ans:- so here the validation happens befor the json payload touches the business logic, when the api request came through http, the middle ware check the json payload first for the authentication and autherization and then the cotroller will send it to the zod validator so it will check the data is in the required formate or not then the api will hit the service layer to execute the query, so these zod will reject the data which has string in the field of integer, if missing longitude and send and 400 status code.
+
 ### H16. How do you handle errors?
 
 ### H17. How are transactions handled?
@@ -966,11 +968,19 @@ This question is important.
 
 ### H19. How would you prevent overselling inventory?
 
+ans:-  i will add first in fist out stateergy, so when the inventory is overselling the users will be queued and if the inventory is closed then the people will out of stock instead of new order.
+
 ### H20. What would you change if the system went from 100 users to 1 million?
+
+ans:- i will be adding caching to the cart and the products because it does hard fetch to the databse and i will integrate the microservices architecture and use load balancers to the project, so the app runs smoother in high traffic.
 
 ### H21. Where is the project deployed?
 
+ans:- still these project was not deployed.
+
 ### H22. Can a recruiter run it from the README?
+
+ans:- no still not created the readme.
 
 ---
 
