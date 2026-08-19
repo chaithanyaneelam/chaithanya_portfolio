@@ -728,6 +728,8 @@ ans:- yes
 
 link:- [https://studbridge.com/](https://studbridge.com/)
 
+i cannot paste the screen shots in these place. the platform is like the tutors are the current job holders in the it and in the free time they will teach the courses to the students, and the students can register there courses and then here there is an freelance section also that the clients will create the task or the projecs they want then they will fix an price and the students can take that project and can complete and can learn, so its like earn while you learn.
+
 ---
 
 # 12. SECTION F â€” WONDERKIDS.CLUB
