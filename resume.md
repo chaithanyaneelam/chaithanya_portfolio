@@ -1160,7 +1160,11 @@ ans: there are four primary things which trigger re-render:
 
 ### K3. Explain `useEffect`.
 
+ans:- useEffect allow you to synchronise the component with an external systems (api calls). it runs side effects after the component has rendered.
+
 ### K4. What mistakes have you made with `useEffect`?
+
+ans:- updating the state inside effect without proper condition, which tigers a re-render, which triggers the re render again again and causing the infinite loop that crashes the browser.
 
 ### K5. How do you manage state?
 
