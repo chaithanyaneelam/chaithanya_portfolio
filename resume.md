@@ -903,7 +903,7 @@ ans:- it is personal project.
 
 ### H2. How much code did you personally write?
 
-ans:\_ the few modules i have written and the rest was written by ai. the architecture and then the databse design was done by me and for some moodules i written code to tell ai to do the code in this formate.
+ans: the few modules i have written and the rest was written by ai. the architecture and then the databse design was done by me and for some moodules i written code to tell ai to do the code in this formate.
 
 ### H3. Why TypeScript?
 
@@ -997,23 +997,62 @@ ans:- no still not created the readme.
 
 ### I1. Which 3 repositories should a recruiter look at first?
 
+ans:-  
+retail core services: [chaithanyaneelam/retail-core-service](https://github.com/chaithanyaneelam/retail-core-service)  
+studbridge: [chaithanyaneelam/Nexus-Platform](https://github.com/chaithanyaneelam/Nexus-Platform)
+
+studbridge kids server: [chaithanyaneelam/StudBridge-kids-server](https://github.com/chaithanyaneelam/StudBridge-kids-server/)
+
 ### I2. Which repositories are actually production-quality?
+
+retail core services: [chaithanyaneelam/retail-core-service](https://github.com/chaithanyaneelam/retail-core-service)
+
+studbridge kids server: [chaithanyaneelam/StudBridge-kids-server](https://github.com/chaithanyaneelam/StudBridge-kids-server/)
+
+i think these two backed sytems are production quality but i have studbridge kids frontend but it is private, so i am gonna share it because in it we have our games, so any one can copy the game files.
 
 ### I3. Which repositories are old coursework and should probably be archived?
 
+ignore it.
+
 ### I4. Which repositories contain your best code?
+
+retail core services: [chaithanyaneelam/retail-core-service](https://github.com/chaithanyaneelam/retail-core-service)  
+studbridge: [chaithanyaneelam/Nexus-Platform](https://github.com/chaithanyaneelam/Nexus-Platform)
+
+studbridge kids server: [chaithanyaneelam/StudBridge-kids-server](https://github.com/chaithanyaneelam/StudBridge-kids-server/)
 
 ### I5. Which repositories have proper README files?
 
+studbridge: [Nexus-Platform/server at main · chaithanyaneelam/Nexus-Platform](https://github.com/chaithanyaneelam/Nexus-Platform/tree/main/server)
+
+[https://github.com/chaithanyaneelam/Nexus-Platform/tree/main/server](https://github.com/chaithanyaneelam/Nexus-Platform/tree/main/server)
+
 ### I6. Which have deployed demos?
+
+studbridge: [chaithanyaneelam/Nexus-Platform](https://github.com/chaithanyaneelam/Nexus-Platform)
+
+studbridge kids server: [chaithanyaneelam/StudBridge-kids-server](https://github.com/chaithanyaneelam/StudBridge-kids-server/)
 
 ### I7. Which projects have tests?
 
+Most of my current projects, like my SaaS platform and retail app, were built rapidly as proof-of-concepts, so I relied on manual testing.
+
 ### I8. Which projects have CI/CD?
+
+i havent integrated ci/cd for any of the project, my next goal is to learn these.
 
 ### I9. Which projects have meaningful commit history?
 
+retail core services: [chaithanyaneelam/retail-core-service](https://github.com/chaithanyaneelam/retail-core-service)  
+studbridge: [chaithanyaneelam/Nexus-Platform](https://github.com/chaithanyaneelam/Nexus-Platform)
+
+studbridge kids server: [chaithanyaneelam/StudBridge-kids-server](https://github.com/chaithanyaneelam/StudBridge-kids-server/)  
+all these have good commit history.
+
 ### I10. Are all public repositories clean?
+
+ans:- yes the provided three repos are public.
 
 ### I11. Do any contain:
 
@@ -1026,9 +1065,15 @@ ans:- no still not created the readme.
 
 If yes, explain exactly what happened.
 
+ans:- no
+
 ### I12. Why is `node_modules` committed in the retail-management-backend repository?
 
+it is the prject when i did while learning, remove it.
+
 ### I13. Have you cleaned Git history after removing secrets?
+
+yes.
 
 ### I14. What is your Git workflow?
 
@@ -1037,6 +1082,10 @@ Describe:
 > branch â†’ code â†’ test â†’ commit â†’ PR â†’ review â†’ merge â†’ deploy
 
 or your actual workflow.
+
+ans:- the workflow will be
+
+Branch-> code changes-> tests-> commit-> pull request-> reviewing the pull request-> approving the pull request-> merging it to the main branch
 
 ---
 
@@ -1083,6 +1132,10 @@ Choose what it currently communicates.
 
 ### J9. What do you want it to communicate?
 
+these is my new portfolio:- [Chaithanya Neelam — Full-Stack Developer & Founder](https://chaithanya-portfolio-phi.vercel.app/)
+
+[https://chaithanya-portfolio-phi.vercel.app/](https://chaithanya-portfolio-phi.vercel.app/)
+
 ---
 
 # 17. SECTION K â€” FRONTEND DEPTH
@@ -1090,6 +1143,8 @@ Choose what it currently communicates.
 This matters for frontend internships.
 
 ### K1. Explain React rendering.
+
+ans: rendering is the process were the react calles the component functions to figure what the ui should look and it calculates the difference between the virtual dom and the actual browser dom and updates only the specific parts of the real dom that changed
 
 ### K2. What causes a component to re-render?
 
