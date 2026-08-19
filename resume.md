@@ -1144,9 +1144,19 @@ This matters for frontend internships.
 
 ### K1. Explain React rendering.
 
-ans: rendering is the process were the react calles the component functions to figure what the ui should look and it calculates the difference between the virtual dom and the actual browser dom and updates only the specific parts of the real dom that changed
+ans: rendering is the process were the react calls the component functions to figure what the ui should look like and it calculates the difference between the virtual dom and the actual browser dom and updates only the specific parts of the real dom that changed
 
 ### K2. What causes a component to re-render?
+
+ans: there are four primary things which trigger re-render:
+
+1, a change in the props passed down from a parent.
+
+2, a change in the consumed context value.
+
+3, a change in the local state (useState).
+
+4, when a parent compoent re-renders.
 
 ### K3. Explain `useEffect`.
 
