@@ -663,9 +663,15 @@ The resume currently calls this:
 
 ### E1. Is this the same company/product as StudBridge Kids?
 
+ans:- yes both the studbridge and the studnridge kids belongs to the same company.
+
 ### E2. If related, explain the relationship.
 
+ans:- the studbridge is belongs to the students from the b-tech and degree and for the tutors and working proffecionals in the it sector, and then the studnridge kids is for the 1 to 7 th grade kids but both the edtech platforms.
+
 ### E3. Was this professional/client work, your own product, freelance work, or a college project?
+
+ans:- its my own product.
 
 ### E4. Who were the users?
 
