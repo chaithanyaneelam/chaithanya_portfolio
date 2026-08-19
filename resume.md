@@ -13,10 +13,12 @@ The process is:
 3. We identify the strongest evidence for software-engineering capability.
 4. We build a master resume.
 5. We create targeted variants for:
-  - Software Engineer / SDE Intern
-  - Full-Stack / Backend Intern
-  - Frontend / React Intern
-6. We then improve LinkedIn, GitHub presentation, portfolio, and application strategy.
+
+- Software Engineer / SDE Intern
+- Full-Stack / Backend Intern
+- Frontend / React Intern
+
+1. We then improve LinkedIn, GitHub presentation, portfolio, and application strategy.
 
 ---
 
@@ -192,7 +194,7 @@ We need to establish:
 - What technical problems he solved
 - What performance or engagement data exists
 
-ans:- these also an practice platform built before the studbridge kids to see the output temperory 
+ans:- these also an practice platform built before the studbridge kids to see the output temperory
 
 ---
 
@@ -313,7 +315,7 @@ Choose your order of preference:
 - Node.js Developer Intern
 - Other:
 
-these current order is ok, i need the role preference as mentioned 
+these current order is ok, i need the role preference as mentioned
 
 ### A2. What kind of company do you want?
 
@@ -478,7 +480,7 @@ ans:- the studbridge kids is math based learning game platform, where we our aim
 
 ### D2. Who started it?
 
-ans:- my slef I started this 
+ans:- my slef I started this
 
 ### D3. What was your exact role?
 
@@ -512,7 +514,7 @@ Explain:
 - third-party APIs
 - monitoring
 
-ans:- as of now i am using the above architecture only, so i am learning to use the kafka, caching, load balancers. 
+ans:- as of now i am using the above architecture only, so i am learning to use the kafka, caching, load balancers.
 
 ### D7. What were the hardest 3 engineering problems?
 
@@ -544,7 +546,7 @@ ans:- when i was integrating the payment gateway in the studbridge kids, i have 
 
 Why?
 
-ans:- i am really proud of studbridge kids were my idea really turns into an application where the kids can enjoy the subject instead of taking the preassure.
+ans:- i am really proud of studbridge kids were my idea really turns into an application where the kids can enjoy the subject instead of taking the preassure to understand the math theorytically.
 
 ### D10. What technical decision would you change if rebuilding today?
 
@@ -574,13 +576,13 @@ Walk through the request.
 
 ans:- there will be four layers: client-> network-> server-> databse.
 
-so when the user performs any action the frontend react or the next.js will be triggered and constructs the json payload with the data and after that through axios or fetch the http request will be sent to the network layer then the dns will route to the saerver but after the dns the tls will kept to encrypt the data and turs https, and then json will sent the middle ware after authentication and the authorization according to the role the json will be 
+so when the user performs any action the frontend react or the next.js will be triggered and constructs the json payload with the data and after that through axios or fetch the http request will be sent to the network layer then the dns will route to the saerver but after the dns the tls will kept to encrypt the data and turs https, and then json will sent the middle ware after authentication and the authorization according to the role the json will be
 
 ### D15. How is the product deployed?
 
 Exact platform and process.
 
-ans:- 
+ans:- the product is deployed in this way, we should push the code to the github and can choose any hosting platfroms like, render, vercel, netlify, i will choose render for backend and vercel for frontend, and i will import the github repo to the vercel and set the environment and the renders takes the whole product environemt and we should give our .env variables in the enviromental variables section.
 
 ### D16. How do you handle production errors?
 
@@ -593,6 +595,8 @@ Error tracking?
 Retries?
 
 Alerts?
+
+ans:- as i not dived much deep into the alerts and these things, but when an specific block is failed in my platform or any error encountered i will store that log and the details of that issue in the database, so i will look into the issues and solve and once done i will clear the rows in databse, and moreover i will use the logs while deploying.
 
 ### D17. What was the scale?
 
@@ -607,17 +611,21 @@ For EACH number, provide the exact meaning and evidence.
 
 Example:
 
-> "200â€“500 students" means 
+> "200â€“500 students" means
 
-> "â‚¹1Lâ€“â‚¹5L ARR" means 
+> "â‚¹1Lâ€“â‚¹5L ARR" means
 
-> "300+ games" means 
+> "300+ games" means
 
 Do not guess.
+
+ans:- the 200 to 500 studnets are the curret user in the platform, and the 3 partner schools are tied up with the studbridge kids in the b2b sales, and 1 lack to 5 lack is the platfrom revenue generated in the b2b sales, and these 300+ games are developed by the interns and it is curricullum aligned games. the scale for me is the platform should be running smoothly in high traffic to, so should add some caching for the frequently accessed dataa instead of sending all the requests directly to the database, and adding the load balancers which handles the traffic and send the requests to the servers which can handle.
 
 ### D18. How many of those users were actually active?
 
 If unknown, say unknown.
+
+ans:- unknown
 
 ### D19. What exactly did the 8 interns do?
 
