@@ -338,7 +338,7 @@ Explain why: i want the companies like startups and early stage startup's so i c
 - NCR
 - Remote
 - Other  
-my preferrence as of now is mostly remote, can i can be able to work in office also, but preferred one is remote and i am comfortable to work at any location if it suites well to me at any work place. Banglore and chennai is preffered if particularly ask me but anything is ok.
+  my preferrence as of now is mostly remote, can i can be able to work in office also, but preferred one is remote and i am comfortable to work at any location if it suites well to me at any work place. Banglore and chennai is preffered if particularly ask me but anything is ok.
 
 ### A4. Internship duration you can commit to
 
@@ -349,7 +349,7 @@ Examples:
 - 4 months
 - 6 months
 - flexible  
-flexible, i can work any of these durations, and can work in long term to.
+  flexible, i can work any of these durations, and can work in long term to.
 
 ### A5. Are you available full-time during the internship?
 
@@ -374,7 +374,6 @@ For every technology below, give yourself a level:
 **4 = strong; can debug others' code**
 
 **5 = can design systems and explain tradeoffs deeply**
-
 
 | Technology | Level | Biggest thing you built with it                                                                                                                                                                                                                                                                                |
 | ---------- | ----- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -403,7 +402,6 @@ For every technology below, give yourself a level:
 | AWS        | 0     |                                                                                                                                                                                                                                                                                                                |
 | Vercel     | 5     | i have hosted several projects in the vercel and configured with claudfare, and hosted many frontend applications by linking the github repo                                                                                                                                                                   |
 | Render     | 5     | i have hosted several projects in the render, and hosted many backend applications by linking the github repo and also used corn jon to keep the process alive                                                                                                                                                 |
-
 
 ### B1. Which 5 technologies are you genuinely strongest at?
 
@@ -462,7 +460,7 @@ Examples:
 - Software Engineering
 - OOP
 - Computer Architecture  
-ans:- in DSA i got A grade and i am familier with the basics and in DBMS i got A grade and in OS and Computer networks and software engineering also i got A grade and and in oops i got S grade which is the top and in computer architecture i got B grade.
+  ans:- in DSA i got A grade and i am familier with the basics and in DBMS i got A grade and in OS and Computer networks and software engineering also i got A grade and and in oops i got S grade which is the top and in computer architecture i got B grade.
 
 Give course + grade if strong.
 
@@ -633,7 +631,7 @@ ans:- the 8 interns will be assigned the work to develop the games which is math
 
 ### D20. How did you review their code/work?
 
-ans:- so i will be not only checking the ui, i will check the game architecture and the game can generate as many as questions dynaically, and the functions are perfectly written and performs without any glitch and the UI and UX is better for a kid, so this things i am gonna review in the code and work of the interns. 
+ans:- so i will be not only checking the ui, i will check the game architecture and the game can generate as many as questions dynaically, and the functions are perfectly written and performs without any glitch and the UI and UX is better for a kid, so this things i am gonna review in the code and work of the interns.
 
 ### D21. Did you use Git branches / pull requests / code review?
 
@@ -683,7 +681,7 @@ ans:- i personally built these entire platfrom without any other's interaction f
 
 ### E6. Explain the multi-tenant architecture.
 
-ans:- a multi tenant architecture means an single instance of software and its supporting infrastructure serves multiple distinct customer groups. so when an user registers account to the platfrom with there role we will be assinging an payload and storing that particular role in the database and generate the token accouding to the role we will display the data. 
+ans:- a multi tenant architecture means an single instance of software and its supporting infrastructure serves multiple distinct customer groups. so when an user registers account to the platfrom with there role we will be assinging an payload and storing that particular role in the database and generate the token accouding to the role we will display the data.
 
 ### E7. How did tenant isolation work?
 
@@ -732,7 +730,7 @@ i cannot paste the screen shots in these place. the platform is like the tutors 
 
 ---
 
-# 12. SECTION F â€” WONDERKIDS.CLUB
+# 12. SECTION F â€” [WONDERKIDS.CLUB](http://WONDERKIDS.CLUB)
 
 Current resume claim:
 
@@ -807,7 +805,8 @@ ans:- yes.
 
 ans:- more than 4000+
 
-### F15. Did you have measurable impact?  
+### F15. Did you have measurable impact?
+
 ans:- yes, the reports was an outstanding feature in that company and for the sales of that, they pitched that the reports can be view by parents at any moment they want and tracak there kids performance.
 
 ---
@@ -904,7 +903,7 @@ ans:- it is personal project.
 
 ### H2. How much code did you personally write?
 
-ans:_ the few modules i have written and the rest was written by ai. the architecture and then the databse design was done by me and for some moodules i written code to tell ai to do the code in this formate.
+ans:\_ the few modules i have written and the rest was written by ai. the architecture and then the databse design was done by me and for some moodules i written code to tell ai to do the code in this formate.
 
 ### H3. Why TypeScript?
 
@@ -960,15 +959,25 @@ ans:- so here the validation happens befor the json payload touches the business
 
 ### H16. How do you handle errors?
 
+ans:- at the database level we will use keywords like the null values and check keywordto not return the error from the database, in the backend we will wrap the request and response in the try catch block so the error will be triggered in the catch block, and the frontend receive the 400, 401, 403 status codes http responses so the frontend shows the toast notifications or opups.
+
 ### H17. How are transactions handled?
+
+ans:- so when an user places and order the data should be changed in multiple tables like products, orders, sales table. so we runs multiple queries at a time and if any table throws error while inserting the data or while modifying we will role back all the changes, if all gives sucess then we will return 200 status code to the frontend.
 
 ### H18. What happens if two users try to buy the last unit simultaneously?
 
 This question is important.
 
+ans:- so i will be using here databse queries like
+
+UPDATE inventory SET stock=stock-1 WHERE item_id=1 AND stock>1;
+
+so these query will check in the database level, so if there is even millisecond then the database has zero in the stock so it throws error, it is better to handle in the database instead of validating in the backend server.
+
 ### H19. How would you prevent overselling inventory?
 
-ans:-  i will add first in fist out stateergy, so when the inventory is overselling the users will be queued and if the inventory is closed then the people will out of stock instead of new order.
+ans:- i will add first in fist out queue statergy, so when the inventory is overselling the users will be queued and if the inventory is closed then the users will get out of stock instead of new order.
 
 ### H20. What would you change if the system went from 100 users to 1 million?
 
@@ -1271,7 +1280,6 @@ This is especially important because of the founder experience.
 
 For each claim below, provide evidence.
 
-
 | Resume claim                  | True? | Exact meaning | Evidence/link |
 | ----------------------------- | ----- | ------------- | ------------- |
 | 8.5 CGPA                      |       |               |               |
@@ -1291,7 +1299,6 @@ For each claim below, provide evidence.
 | Production deployment         |       |               |               |
 | Analytics backend             |       |               |               |
 | Bug-fixing / reliability work |       |               |               |
-
 
 Anything that cannot be defended gets removed or rewritten.
 
@@ -1431,7 +1438,7 @@ Dates
 - measurable result
 - leadership/product ownership only where useful
 
-### Full-Stack Developer â€” Wonderkids.club
+### Full-Stack Developer â€” [Wonderkids.club](http://Wonderkids.club)
 
 Dates
 
