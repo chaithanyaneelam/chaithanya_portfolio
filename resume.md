@@ -924,19 +924,35 @@ ans:- so when a request comes to the server it will go middle ware and then it w
 
 ### H7. Why did you choose it?
 
+ans:- to solve an problem that retail shop owners also have an online platform and the customer can buy them instead of buying in the big stores, it is to encourage the local business and support them in e comerse.
+
 ### H8. What tables/entities exist?
+
+ans:- the entities like users, shops, products, cart, payment, reports.
 
 ### H9. How do vendors, products, inventory and orders relate?
 
+ans:- using the joins we can relate them, when a user orders and product form the vendor then with the user id, vendor id and the product id we insert and row to the orders table.
+
 ### H10. Explain the delivery-routing feature.
+
+ans:- these feture was still in the integration, but my architecture in this is when a customer orders the notifications first goes to the vendor and if he accepts in that time of packing for the delivery the notification goes to the delivery boy or the shop owner it self can send the delivaery, the routing is kept by integrating the google maps into the app.
 
 ### H11. Why use PostGIS instead of plain latitude/longitude columns?
 
+ans:- instead of storing the lat and long in plain cloumns we use the postgis because if we store it in plain cliumn then we should write the complex math in sin, cos so the postgis has buildt in method were the distance is calculated in the lightning fast accurately.
+
 ### H12. Explain JWT authentication in this project.
+
+ans:- the jwt authentication was been implemented in this way, first there will be an middle ware so it will checking the token for every request that the access token is still alive or expired, if the access token is expired then the middle ware looks for the refresh token in the databse, if that token is exoired then the middle ware throws error without making the api call to the business logic, and is the user logins then the new access token and the new refresh token will be created, the refresh token will be stored in the database, and then if the refresh token is not expired but the access token expires then the new access token will generated, and while the user creates and account the refresh and access tokens are created, while usingthen way when the user hits logout then we can delete the refresh token in the db so the any other devices the users cant send the request, so the jwt is stateless so we cant kill it so this approach will be better from my side.
 
 ### H13. Why Argon2?
 
+ans:- to hash the password i used the argon2, the bcrypt also can be used here, but i choos the argon2.
+
 ### H14. What does Zod protect against?
+
+ans:- it will check the json payload and the inputs form the user whether it is matching the requirements or not and validates the data like sql injection or running proxy data, instead of writting th eif else blocks or while blocks to our code zod helps to remove that boilerplate.
 
 ### H15. What validation happens at the API boundary?
 
