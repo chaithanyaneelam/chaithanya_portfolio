@@ -1307,6 +1307,10 @@ For every item:
 
 **What was the measurable result?**
 
+hackathons: participated in the hackothon called devsphere, were i have built the backend for our project called enterprise administration and the customer platform, the system which is built is scalable and code redeable and follows industry level architecture but the project was not selected to the next level.
+
+certifications: **Oracle Database SQL Certified Specialist from Oracle Corporation • Certified Nov 2024**
+
 ---
 
 # 21. SECTION O â€” BEHAVIORAL INTERVIEW
@@ -1453,6 +1457,16 @@ For each employer/project:
 - bugs solved
 - features shipped
 
+and there is an company which is started by me, which has only the udayam aadhar for the company and the labour certificate.
+
+the company is studbridge
+
+and the main sub company is studbridge kids.
+
+i am the founder and the software developer, product manager, designer and the database designs and all the things was been done by me.
+
+the start date of these company is 01 april 2026 and currently stopped working on it and focusing on the internship, and also i have stopped this in 21 june 2026
+
 company: **Wonderkids.club(Vaultboard Consulting)**  
 title: Full Stack Developer.
 
@@ -1491,17 +1505,15 @@ manager: Sweatha (manager)
 
 stack: React, Node.js, Express.js, django, MySQL
 
-contribution: developed 40+ math based games, and built and backend module for the student reports generation.
+contribution: were they have an internal platform, in that is hould be an direct technical contact to the support team, i should look into the tickets they send and should resolve it, if the issue is bigger then i need to inform to the manager, and then the task is completed i will push to the github and inform the team they will review the pr and merge to the main brach. but they assgined me modules more instead of these bug fixes.
 
-impact: the reports was an outstanding feature in that company and for the sales of that, they pitched that the reports can be view by parents at any moment they want and tracak there kids performance.
+impact: the product has got new update that make the employees work easier.
 
 deployments: i havent deployed any thing in that company
 
-user: students
+user: employees in the company and the school principals.
 
-bugs solved: i have fixed already built games ui/ux and the functionality, understood the clear ui and ux.
-
-featturs shipped: 40+ games, and the student performance metrics.
+bugs solved: there is an feature in there portal that the employees will add the student marks to the platfrom, that was developed by me, then the issue i fixed there is if the student studies the same school for the next academic year they should manually promote them, i have built an thing so they can promote the selecte students easily with one click, and i have cleaned the duplicate numbers in excel for whatsapp integration.
 
 ### Projects
 
