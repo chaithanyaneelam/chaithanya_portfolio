@@ -1168,29 +1168,51 @@ ans:- updating the state inside effect without proper condition, which tigers a 
 
 ### K5. How do you manage state?
 
+ans:- i will be managing the state according to the complexity of project, if the state is to mange the drop downs or local Ui i will be using the useState, and for the global data which rarely changes like UI themes, authentication i will use context in react, for the complex frequently changing global state zustand will be the preffered from myh side over redux because zustand hasa less boiler plate when compares to the redux.
+
 ### K6. Have you used Context / Redux / Zustand / other state managers?
+
+ans: yes, while developing the studbridge kids i have used the context to change the state which should be displyed in the multiple stages.
 
 ### K7. How do you structure a large React application?
 
+ans:- when structuring an large react application i will add the services names in the features folder and for the each service there will hooks, components, apicalles in different files, this keeps the application readable and testable even if it grows larger, example- features/mentors/hooks, features/mentors/components.
+
 ### K8. What is component composition?
+
+ans:- composition is passing components as props to other components, it prevents prop drilling and makes highly reusable wrapers, it prevents prop drilling.
 
 ### K9. How do you prevent unnecessary renders?
 
+ans:- by using rect.memo to the child components so they renders only when there props changes, and using useMemo and usecallback to cache the expensive calculations and function definitions between renders.
+
 ### K10. How do you handle loading/error/empty states?
+
+ans:- skeleton loaders or spinners for loading and React Error Boundaries to catch the crashes and to display fallback UI without crashing the entire app, and dedicated empty state illustrations when database return 0 or null.
 
 ### K11. How do you build responsive interfaces?
 
+ans:- using the grids, flexboxs and building the mobile first UI and with tailwind css the base utility classes for mobile screen and adding the break points like md: and lg: which helps to adjust the layouts in the tablets and pc's.
+
 ### K12. How do you approach accessibility?
 
+ans:- using the semantic html, and adding proper arial-labels to icon only buttons and mainaitning good color contrast and ensuring that the entire application can be navigates through only tab key.
+
 ### K13. How do you improve frontend performance?
+
+ans:- the performance is improved by code-spliting and using lazy loading were the data is rendering more, and optimizing the image formates (WebP), adding proper loading animations untill and api returns properly.
 
 ### K14. Have you used Lighthouse?
 
 Give an example of an actual performance improvement.
 
+ans:- i havent have an deep idea in this, but i have touched this some part were running chrome lighthouse in next.js in the studbridge kids, to diagnoise poor largest contextful paint, by swapping the unoptimized hero image and and optimised it to decrease the largest contextful paint time to boost the light house performance score into the green.
+
 ### K15. What testing have you done on frontend code?
 
 Be honest.
+
+ans:- to be honest i have strongly focused on building end to end modules instead of doing the testing after completing an thing, but i strongly depended on manuall testing while developing.
 
 ---
 
