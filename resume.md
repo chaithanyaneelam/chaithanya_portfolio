@@ -1220,23 +1220,43 @@ ans:- to be honest i have strongly focused on building end to end modules instea
 
 ### L1. Explain the lifecycle of an HTTP request in Express.
 
+ans:- the request hits the node.js server, routes through express application, passes sequentally through any global middle ware like cors, body parse and then hits route specific middle ware and then move to the controller layer and service and repository layer and send the http response back to the client.
+
 ### L2. What is middleware?
+
+ans:- middleware are the functions which can have the access to the users req and res and which does the authorization and then can modify the req or res and they site in the middle of the request cycle to execute code, and they can even end the cycle entirely.
 
 ### L3. How do you structure routes/controllers/services?
 
+ans:- routes: maps the url endpoints to the specific controllers, controller: handles the http trafic and extracts req.body and res.status, services: pure businees logic is written and have direct contact to the sql code which is in the repository layer. the cotroller calls the serives to run the request and service layer will add any needful to the request and send to the repository to run the sql query.
+
 ### L4. How do authentication and authorization differ?
+
+ans:- authentication is like proving who you are (loggin in) and authorization is proving what you are allowed to do (admin and student permissions).
 
 ### L5. How does JWT work?
 
+ans:- jwt( json web token) is a state less string containing a header, payload of user data, roles, and having the backend cryptographical signature.
+
 ### L6. What are the security risks of JWT?
+
+ans:- since the jwt is stateless so it is unable to stop so if any keys exposed in the frontend causes vulnerabilities so instead of storing it is in the local storage, storing it in the httpsOnly secure cookie is the best way to prevent the token leaks.
 
 ### L7. How do you validate request bodies?
 
+ans:- by using schema validation libraries like zod, it will be an strict middleware befor the cotroller and it throws 400 bad request if the incoming request json schema dosent matches the strict validation schema before reaching to the databse.
+
 ### L8. What is SQL injection?
+
+ans:- sql injection is when a malicious user inputs sql command into the text field, and tricking the database to execute it.
 
 ### L9. How do parameterized queries prevent it?
 
+ans:- parameterized query prevents the sql injection by sending the sql commands and the user data seperately, ensuring the user data to be strictly treated as text and not executable.
+
 ### L10. What is a database transaction?
+
+ans:-
 
 ### L11. What is an index?
 
