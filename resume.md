@@ -825,7 +825,7 @@ ans:- i am worked there as technical intern, it is an pltfrom for the employees 
 
 ### G2. What was your role exactly?
 
-ans:- were they have an internl platform, in that is hould be an direct technical contact to the support team, i should look into the tickets they send and should resolve it, if the issue is bigger then i need to inform to the manager, and then the task is completed i will push to the github and inform the team they will review the pr and merge to the main brach. but they assgined me modules more instead of these bug fixes.
+ans:- were they have an internal platform, in that is hould be an direct technical contact to the support team, i should look into the tickets they send and should resolve it, if the issue is bigger then i need to inform to the manager, and then the task is completed i will push to the github and inform the team they will review the pr and merge to the main brach. but they assgined me modules more instead of these bug fixes.
 
 ### G3. What programming language/framework did you use?
 
@@ -1407,6 +1407,16 @@ Chaithanya should provide:
 - GitHub
 - Portfolio
 
+name: Chaithanya Neelam  
+phone: 6304886413
+
+email: [neelamchaithanya6@gmail.com](mailto:neelamchaithanya6@gmail.com)
+
+linkedIn: [https://www.linkedin.com/in/chaithanyaneelam/](https://www.linkedin.com/in/chaithanyaneelam/)
+
+github: [https://github.com/chaithanyaneelam](https://github.com/chaithanyaneelam)  
+portfolio: [https://chaithanya-portfolio-phi.vercel.app/](https://chaithanya-portfolio-phi.vercel.app/)
+
 ### Education
 
 - Exact degree
@@ -1414,6 +1424,17 @@ Chaithanya should provide:
 - CGPA
 - Relevant coursework
 - Academic achievements
+
+degree: B-Tech (computer science and engineering)
+
+Expected graduation: May 2027
+
+CGPA: 8.56
+
+Relevent courseWork: DSA, OS, DBMS, Software engineering, Internet programming.
+
+Academinc achievements: participated in the hackothon called devsphere, were i have built the backend for our project called enterprise administration and the customer platform.  
+certifications: **Oracle Database SQL Certified Specialist from Oracle Corporation • Certified Nov 2024**
 
 ### Experience
 
@@ -1431,6 +1452,56 @@ For each employer/project:
 - users
 - bugs solved
 - features shipped
+
+company: **Wonderkids.club(Vaultboard Consulting)**  
+title: Full Stack Developer.
+
+type: remote
+
+dates: 22 nov 2025 to 22 jan 2026
+
+team size: 5 to 10 employees
+
+manager: saurabh (co-founder)
+
+stack: HTML, CSS, JavaScript, PhP, Node.js, Express.js, MySQL
+
+contribution: developed 40+ math based games, and built and backend module for the student reports generation.
+
+impact: the reports was an outstanding feature in that company and for the sales of that, they pitched that the reports can be view by parents at any moment they want and tracak there kids performance.
+
+deployments: i havent deployed any thing in that company
+
+user: students
+
+bugs solved: i have fixed already built games ui/ux and the functionality, understood the clear ui and ux.
+
+featturs shipped: 40+ games, and the student performance metrics.
+
+company: **Kreedo Early Childhood Solutions**  
+title: Tech intern.
+
+type: work in office (banglore)
+
+dates: 18 Sep 2025 to 1 dec 2026
+
+team size: 10 to 20 employees
+
+manager: Sweatha (manager)
+
+stack: React, Node.js, Express.js, django, MySQL
+
+contribution: developed 40+ math based games, and built and backend module for the student reports generation.
+
+impact: the reports was an outstanding feature in that company and for the sales of that, they pitched that the reports can be view by parents at any moment they want and tracak there kids performance.
+
+deployments: i havent deployed any thing in that company
+
+user: students
+
+bugs solved: i have fixed already built games ui/ux and the functionality, understood the clear ui and ux.
+
+featturs shipped: 40+ games, and the student performance metrics.
 
 ### Projects
 
