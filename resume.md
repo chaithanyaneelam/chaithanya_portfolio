@@ -1305,6 +1305,14 @@ Explain:
 - pull request
 - conflict resolution
 
+ans:- branch is an isolated work space to build features without interupting the producction code.
+
+merge is integrating the isolated brach into the main code base, keeping the history of all the commits.
+
+pull request is a peer review were code is examined and discussed and approved before beign merged into the main brach.
+
+conflict resolution is deciding which line of code should be when an two developers work on the exact same file simultaneously.
+
 ### M2. Testing
 
 Explain:
@@ -1322,16 +1330,16 @@ Give a real debugging story.
 
 Rate yourself honestly:
 
-- Arrays
-- Strings
-- Hash maps
-- Linked lists
-- Stacks/queues
-- Trees
-- Graphs
-- Recursion
-- Dynamic programming
-- Sorting/searching
+- Arrays 4/5
+- Strings 4/5
+- Hash maps 3/5
+- Linked lists 1/5
+- Stacks/queues 4/5
+- Trees 1/5
+- Graphs 0/5
+- Recursion 4/5
+- Dynamic programming 0/5
+- Sorting/searching 4/5
 
 ### M5. Coding interviews
 
