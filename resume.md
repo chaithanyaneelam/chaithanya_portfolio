@@ -1256,13 +1256,19 @@ ans:- parameterized query prevents the sql injection by sending the sql commands
 
 ### L10. What is a database transaction?
 
-ans:-
+ans:- a sequence of dabase operations treated as one, is one fails entire transaction rolls back, for example this prevents duplicate promise or overselling a prosuct
 
 ### L11. What is an index?
 
+ans:- An index is an data structure (usually B-tree) which improves the speed of data retrival operations in a table, it is usually like a index at back of the textbook.
+
 ### L12. When does an index hurt performance?
 
+ans:- it slow downs the write operations (like INSERT, UPDATE, DELETE) because if the data is modified then it's index also must update.
+
 ### L13. SQL vs NoSQL: when would you choose each?
+
+ans:- i will choose sql when the data is highly structured, relational, and requires strict ACID and it will be stored in the tabulare formate, choose NoSQL for rapid prototyping and unstructured data, it will store the data in json formate.
 
 ### L14. What is normalization?
 
