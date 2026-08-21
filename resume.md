@@ -1272,11 +1272,19 @@ ans:- i will choose sql when the data is highly structured, relational, and requ
 
 ### L14. What is normalization?
 
+ans:- the process of organizing data in the databse to reduce redudancy and to improve data integrity, usually dividing larger tables into smaller tables and relating it by foriegn keys.
+
 ### L15. What is a race condition?
+
+ans:- multiple process try to read and write the same data at the same time is called race condition, it will happen when an proper user maintanable system is not integrated for example when a two users to try to buy the exact item at the same exact moment.
 
 ### L16. How would you design an idempotent API?
 
+ans:- an idempotent api guarentees making the same request multiple times will give the exact same effect as making it once, this can be designed by the user sending the unique idempotent key form header with the post request, the server checks if the key has been processed, if yes then that returns cached success response instead creating an duplicate row.
+
 ### L17. What happens when an external API fails?
+
+ans:-
 
 ### L18. How do you retry safely?
 
