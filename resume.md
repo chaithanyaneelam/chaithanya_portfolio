@@ -1284,9 +1284,11 @@ ans:- an idempotent api guarentees making the same request multiple times will g
 
 ### L17. What happens when an external API fails?
 
-ans:-
+ans:- if an external api fails then system will be stuck or it may crash.
 
 ### L18. How do you retry safely?
+
+ans:- i havent used this thing in my any of the projects so i dont have more idea but we can implement an exponential back off
 
 ---
 
