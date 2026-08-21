@@ -1389,9 +1389,15 @@ These answers also help determine what should appear on the resume.
 
 ### O1. Why software engineering?
 
+ans:- so i have an strong foundation in the thinking far ahead from an idea, and then building the systems from the scratch i love to design the systems and build it, so i have decided to become an software engineer.
+
 ### O2. Why full-stack?
 
+ans:- while to achecive my goals and to test my ability to become an product owner, as a student i should be able to build the product then itself i can be an owner of the product so i have decided to build my own product so i leanred full stack and achieved it.
+
 ### O3. Why are you looking for an internship when you have already built products?
+
+ans:- as an student i have built my product form learning all the stuff and to understand how the system develop, so in this stage i did claudfare dns, ad deploying an application by building it from scratch so to get an enterprise oppurtunity were i can manage and build the products were the lacks of people ueses i want an internship.
 
 ### O4. Why not work full-time on your own product?
 
