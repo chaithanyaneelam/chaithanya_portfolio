@@ -1309,6 +1309,10 @@ ans:- branch is an isolated work space to build features without interupting the
 
 merge is integrating the isolated brach into the main code base, keeping the history of all the commits.
 
+rebase means moving a brach to a new base commit to create a clean project history and avoid messy merge commits
+
+cherry-pick means selecting an single particular commit from one branch and applying it to another.
+
 pull request is a peer review were code is examined and discussed and approved before beign merged into the main brach.
 
 conflict resolution is deciding which line of code should be when an two developers work on the exact same file simultaneously.
